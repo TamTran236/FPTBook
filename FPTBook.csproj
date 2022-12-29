@@ -6,6 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\NewFolder\**" />
+    <Content Remove="wwwroot\NewFolder\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder\**" />
+    <None Remove="wwwroot\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Data\Migrations\20220812034548_SeedRoles.cs" />
     <Compile Remove="Data\Migrations\20220812034548_SeedRoles.Designer.cs" />
     <Compile Remove="Data\Migrations\20220815050506_AddBooksTableandGenresTable.cs" />
